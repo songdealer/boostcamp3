@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE13C8CC21C522980083B6B5 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE13C8CB21C522980083B6B5 /* DataManager.m */; };
+		CE13C8D221C6FE1D0083B6B5 /* movieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE13C8D121C6FE1D0083B6B5 /* movieViewController.m */; };
+		CE1436E921C0F4F40082BF7A /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1436E821C0F4F40082BF7A /* SplashViewController.m */; };
+		CE1436EC21C0F5680082BF7A /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1436EB21C0F5680082BF7A /* CollectionViewController.m */; };
+		CE1436F321C175760082BF7A /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1436F221C175760082BF7A /* ParentViewController.m */; };
+		CE32387221BE68C100B63DD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32387121BE68C100B63DD4 /* AppDelegate.m */; };
+		CE32387521BE68C100B63DD4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32387421BE68C100B63DD4 /* TableViewController.m */; };
+		CE32387821BE68C100B63DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32387621BE68C100B63DD4 /* Main.storyboard */; };
+		CE32387A21BE68C300B63DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32387921BE68C300B63DD4 /* Assets.xcassets */; };
+		CE32387D21BE68C300B63DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32387B21BE68C300B63DD4 /* LaunchScreen.storyboard */; };
+		CE32388021BE68C300B63DD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32387F21BE68C300B63DD4 /* main.m */; };
+		CE32388A21BE68C300B63DD4 /* boostcampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32388921BE68C300B63DD4 /* boostcampTests.m */; };
+		CE32389521BE68C300B63DD4 /* boostcampUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32389421BE68C300B63DD4 /* boostcampUITests.m */; };
+		CE3238E221BE70F800B63DD4 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3238E121BE70F800B63DD4 /* SessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE32388621BE68C300B63DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE32386521BE68C100B63DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE32386C21BE68C100B63DD4;
+			remoteInfo = boostcamp;
+		};
+		CE32389121BE68C300B63DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE32386521BE68C100B63DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE32386C21BE68C100B63DD4;
+			remoteInfo = boostcamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE13C8CA21C522980083B6B5 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		CE13C8CB21C522980083B6B5 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		CE13C8D021C6FE1D0083B6B5 /* movieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movieViewController.h; sourceTree = "<group>"; };
+		CE13C8D121C6FE1D0083B6B5 /* movieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movieViewController.m; sourceTree = "<group>"; };
+		CE1436E721C0F4F40082BF7A /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		CE1436E821C0F4F40082BF7A /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		CE1436EA21C0F5680082BF7A /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		CE1436EB21C0F5680082BF7A /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		CE1436ED21C0F69B0082BF7A /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		CE1436F121C175760082BF7A /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		CE1436F221C175760082BF7A /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		CE32386D21BE68C100B63DD4 /* boostcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boostcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32387021BE68C100B63DD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE32387121BE68C100B63DD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE32387321BE68C100B63DD4 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CE32387421BE68C100B63DD4 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CE32387721BE68C100B63DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE32387921BE68C300B63DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE32387C21BE68C300B63DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE32387E21BE68C300B63DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE32387F21BE68C300B63DD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE32388521BE68C300B63DD4 /* boostcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boostcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32388921BE68C300B63DD4 /* boostcampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boostcampTests.m; sourceTree = "<group>"; };
+		CE32388B21BE68C300B63DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE32389021BE68C300B63DD4 /* boostcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boostcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32389421BE68C300B63DD4 /* boostcampUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boostcampUITests.m; sourceTree = "<group>"; };
+		CE32389621BE68C300B63DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3238E021BE70F800B63DD4 /* SessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		CE3238E121BE70F800B63DD4 /* SessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE32386A21BE68C100B63DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32388221BE68C300B63DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32388D21BE68C300B63DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE32386421BE68C100B63DD4 = {
+			isa = PBXGroup;
+			children = (
+				CE32386F21BE68C100B63DD4 /* boostcamp */,
+				CE32388821BE68C300B63DD4 /* boostcampTests */,
+				CE32389321BE68C300B63DD4 /* boostcampUITests */,
+				CE32386E21BE68C100B63DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE32386E21BE68C100B63DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE32386D21BE68C100B63DD4 /* boostcamp.app */,
+				CE32388521BE68C300B63DD4 /* boostcampTests.xctest */,
+				CE32389021BE68C300B63DD4 /* boostcampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE32386F21BE68C100B63DD4 /* boostcamp */ = {
+			isa = PBXGroup;
+			children = (
+				CE32387021BE68C100B63DD4 /* AppDelegate.h */,
+				CE32387121BE68C100B63DD4 /* AppDelegate.m */,
+				CE1436E721C0F4F40082BF7A /* SplashViewController.h */,
+				CE1436E821C0F4F40082BF7A /* SplashViewController.m */,
+				CE1436F121C175760082BF7A /* ParentViewController.h */,
+				CE1436F221C175760082BF7A /* ParentViewController.m */,
+				CE32387321BE68C100B63DD4 /* TableViewController.h */,
+				CE32387421BE68C100B63DD4 /* TableViewController.m */,
+				CE1436EA21C0F5680082BF7A /* CollectionViewController.h */,
+				CE1436EB21C0F5680082BF7A /* CollectionViewController.m */,
+				CE13C8D021C6FE1D0083B6B5 /* movieViewController.h */,
+				CE13C8D121C6FE1D0083B6B5 /* movieViewController.m */,
+				CE32387621BE68C100B63DD4 /* Main.storyboard */,
+				CE32387921BE68C300B63DD4 /* Assets.xcassets */,
+				CE32387B21BE68C300B63DD4 /* LaunchScreen.storyboard */,
+				CE32387E21BE68C300B63DD4 /* Info.plist */,
+				CE32387F21BE68C300B63DD4 /* main.m */,
+				CE3238E021BE70F800B63DD4 /* SessionManager.h */,
+				CE3238E121BE70F800B63DD4 /* SessionManager.m */,
+				CE13C8CA21C522980083B6B5 /* DataManager.h */,
+				CE13C8CB21C522980083B6B5 /* DataManager.m */,
+				CE1436ED21C0F69B0082BF7A /* define.h */,
+			);
+			path = boostcamp;
+			sourceTree = "<group>";
+		};
+		CE32388821BE68C300B63DD4 /* boostcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE32388921BE68C300B63DD4 /* boostcampTests.m */,
+				CE32388B21BE68C300B63DD4 /* Info.plist */,
+			);
+			path = boostcampTests;
+			sourceTree = "<group>";
+		};
+		CE32389321BE68C300B63DD4 /* boostcampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE32389421BE68C300B63DD4 /* boostcampUITests.m */,
+				CE32389621BE68C300B63DD4 /* Info.plist */,
+			);
+			path = boostcampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE32386C21BE68C100B63DD4 /* boostcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE32389921BE68C300B63DD4 /* Build configuration list for PBXNativeTarget "boostcamp" */;
+			buildPhases = (
+				CE32386921BE68C100B63DD4 /* Sources */,
+				CE32386A21BE68C100B63DD4 /* Frameworks */,
+				CE32386B21BE68C100B63DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = boostcamp;
+			productName = boostcamp;
+			productReference = CE32386D21BE68C100B63DD4 /* boostcamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE32388421BE68C300B63DD4 /* boostcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE32389C21BE68C300B63DD4 /* Build configuration list for PBXNativeTarget "boostcampTests" */;
+			buildPhases = (
+				CE32388121BE68C300B63DD4 /* Sources */,
+				CE32388221BE68C300B63DD4 /* Frameworks */,
+				CE32388321BE68C300B63DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE32388721BE68C300B63DD4 /* PBXTargetDependency */,
+			);
+			name = boostcampTests;
+			productName = boostcampTests;
+			productReference = CE32388521BE68C300B63DD4 /* boostcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE32388F21BE68C300B63DD4 /* boostcampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE32389F21BE68C300B63DD4 /* Build configuration list for PBXNativeTarget "boostcampUITests" */;
+			buildPhases = (
+				CE32388C21BE68C300B63DD4 /* Sources */,
+				CE32388D21BE68C300B63DD4 /* Frameworks */,
+				CE32388E21BE68C300B63DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE32389221BE68C300B63DD4 /* PBXTargetDependency */,
+			);
+			name = boostcampUITests;
+			productName = boostcampUITests;
+			productReference = CE32389021BE68C300B63DD4 /* boostcampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE32386521BE68C100B63DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE32386C21BE68C100B63DD4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CE32388421BE68C300B63DD4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CE32386C21BE68C100B63DD4;
+					};
+					CE32388F21BE68C300B63DD4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CE32386C21BE68C100B63DD4;
+					};
+				};
+			};
+			buildConfigurationList = CE32386821BE68C100B63DD4 /* Build configuration list for PBXProject "boostcamp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE32386421BE68C100B63DD4;
+			productRefGroup = CE32386E21BE68C100B63DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE32386C21BE68C100B63DD4 /* boostcamp */,
+				CE32388421BE68C300B63DD4 /* boostcampTests */,
+				CE32388F21BE68C300B63DD4 /* boostcampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE32386B21BE68C100B63DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32387D21BE68C300B63DD4 /* LaunchScreen.storyboard in Resources */,
+				CE32387A21BE68C300B63DD4 /* Assets.xcassets in Resources */,
+				CE32387821BE68C100B63DD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32388321BE68C300B63DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32388E21BE68C300B63DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE32386921BE68C100B63DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1436E921C0F4F40082BF7A /* SplashViewController.m in Sources */,
+				CE13C8D221C6FE1D0083B6B5 /* movieViewController.m in Sources */,
+				CE32387521BE68C100B63DD4 /* TableViewController.m in Sources */,
+				CE1436F321C175760082BF7A /* ParentViewController.m in Sources */,
+				CE1436EC21C0F5680082BF7A /* CollectionViewController.m in Sources */,
+				CE32388021BE68C300B63DD4 /* main.m in Sources */,
+				CE13C8CC21C522980083B6B5 /* DataManager.m in Sources */,
+				CE3238E221BE70F800B63DD4 /* SessionManager.m in Sources */,
+				CE32387221BE68C100B63DD4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32388121BE68C300B63DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32388A21BE68C300B63DD4 /* boostcampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32388C21BE68C300B63DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32389521BE68C300B63DD4 /* boostcampUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE32388721BE68C300B63DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE32386C21BE68C100B63DD4 /* boostcamp */;
+			targetProxy = CE32388621BE68C300B63DD4 /* PBXContainerItemProxy */;
+		};
+		CE32389221BE68C300B63DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE32386C21BE68C100B63DD4 /* boostcamp */;
+			targetProxy = CE32389121BE68C300B63DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE32387621BE68C100B63DD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE32387721BE68C100B63DD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE32387B21BE68C300B63DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE32387C21BE68C300B63DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE32389721BE68C300B63DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE32389821BE68C300B63DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE32389A21BE68C300B63DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = boostcamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingwan.boostcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE32389B21BE68C300B63DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = boostcamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingwan.boostcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE32389D21BE68C300B63DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = boostcampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingwan.boostcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boostcamp.app/boostcamp";
+			};
+			name = Debug;
+		};
+		CE32389E21BE68C300B63DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = boostcampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingwan.boostcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boostcamp.app/boostcamp";
+			};
+			name = Release;
+		};
+		CE3238A021BE68C300B63DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = boostcampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingwan.boostcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = boostcamp;
+			};
+			name = Debug;
+		};
+		CE3238A121BE68C300B63DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = boostcampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingwan.boostcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = boostcamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE32386821BE68C100B63DD4 /* Build configuration list for PBXProject "boostcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE32389721BE68C300B63DD4 /* Debug */,
+				CE32389821BE68C300B63DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE32389921BE68C300B63DD4 /* Build configuration list for PBXNativeTarget "boostcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE32389A21BE68C300B63DD4 /* Debug */,
+				CE32389B21BE68C300B63DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE32389C21BE68C300B63DD4 /* Build configuration list for PBXNativeTarget "boostcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE32389D21BE68C300B63DD4 /* Debug */,
+				CE32389E21BE68C300B63DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE32389F21BE68C300B63DD4 /* Build configuration list for PBXNativeTarget "boostcampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3238A021BE68C300B63DD4 /* Debug */,
+				CE3238A121BE68C300B63DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE32386521BE68C100B63DD4 /* Project object */;
+}
